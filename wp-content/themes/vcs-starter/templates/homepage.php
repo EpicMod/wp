@@ -9,7 +9,7 @@ get_header();
 <!-- Start Point -->
 
 <section class="homepage flex-container" id="id_homepage">
-	<div>
+	<div class = "homepage_content">
 		<?php the_field('content'); ?>
 	</div>
 </section>

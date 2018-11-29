@@ -3,7 +3,7 @@
 $('.owl-carousel').owlCarousel({
     stagePadding:50,
     loop:true,
-    margin:80,
+    margin:60,
     nav:true,
   	navText: ["<i class='fas fa-angle-left'></i>", "<i class='fas fa-angle-right'></i>"],
   	dots: false,

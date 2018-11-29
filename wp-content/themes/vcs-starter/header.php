@@ -25,7 +25,7 @@
 							</a>
 						</div>
 						<div class="logo-text">
-							<h1 class="hero-title">
+							<h1 class="hero_title">
 								<?php
 									$title = get_field('header_title', 'option');
 									
@@ -48,6 +48,7 @@
 					<div class="cross">
 						<i class="fas fa-times"></i>
 					</div>
+					
 					<?php
 					
 					$args = [

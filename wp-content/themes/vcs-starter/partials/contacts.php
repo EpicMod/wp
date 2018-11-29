@@ -1,5 +1,4 @@
 <section class="contact_page flex_container" id="id_contact_page">
-	<h2>CONTACT US</h2>
 	<div class="contact_form_container flex-container">
 		<div class="contact_form">
 			<div class="contact">
@@ -9,6 +8,7 @@
 			</div>
 		</div>
 		<div class="contact_details">
+			<h2 class="contact_us_page">CONTACT US</h2>
 			<?php the_field('contact_details'); ?>
 			<p class="link_paintings">
 			<?php

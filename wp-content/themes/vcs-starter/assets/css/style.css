@@ -14,35 +14,63 @@ body{
 	margin:0;
 }
 
-section{
-	min-height: 100vh;
+/* Text Formatting */
+
+h1{
+	font-family: Goldoni;
+	color: white;
+	font-size: 3.5rem;
+    font-weight: normal;
+	margin-top: 2.5rem 0;
 }
 
-.hero{
-	background-image: url(../images/hero-bg.jpg);
-	background-size: cover;
-/* 	background-repeat: no-repeat; */
+h2{
+	font-family: Goldoni;
+	color:white;
+	font-size: 3rem;
+    font-weight: normal;
+	margin: 3rem 0 2rem 0;
+
+	background-color: #9ad6e0;	
+	display: inline-block;
 }
+
+h3{
+	font-family: Goldoni;
+	color:#606060;
+	font-size: 2.5rem;
+    font-weight: normal;
+    margin: 1.5rem 0;
+}
+
+
+h4{
+	font-family: Crimson;
+	color:#606060;
+	font-size: 1.5rem;
+    font-weight: normal;
+    margin: 1.5rem 0;
+}
+
+
+p{
+    color: #606060;
+}
+
+/* Text Formatting End */
 
 .flex-container{
 	display: flex;
 }
 
-/* .hero .flex-container{ */
-	/* justify-content: flex-end; */
-/* } */
+.hero{
+	background-image: url(../images/hero-bg.jpg);
+	background-size: cover;
+	min-height: 100vh;
+}
 
-.hero-title{
-	text-align: center;
-	font-family: Goldoni;
-	color: white;
-	font-size: 3.5rem;
-    font-weight: normal;
-
-	width: 100%;
-	border: 0;
-	margin: 0%;	
-	margin-top: 3%;
+.hero_title{
+	margin: 1rem 0;	
 }
 
 .hero-logo{	
@@ -63,8 +91,6 @@ section{
 	font-size: 7rem;
 	opacity: .5;
 	color: white;
-	
-    color: white;
     text-shadow: 2px 2px 4px #000000;
 }
 
@@ -85,8 +111,8 @@ section{
 	display: block;
 	content: "";
 	height: 1px;
-	width: 31%;
-	background-color: #afafaf;
+	width: 30%;
+	background-color: #606060;
 	margin: 0 auto;
 }
 
@@ -97,8 +123,8 @@ section{
 }
 
 .main-nav li{	
-	padding-left:  2.05rem;
-	padding-right: 2.05rem;	
+	padding-left:  2rem;
+	padding-right: 2rem;	
 }
 
 .main-nav a{	
@@ -124,29 +150,22 @@ section{
 }
 
 .burger{
-
 	display: none;
-
 }
 
 .cross{
-
 	display: none;
-
 }
 
 .homepage{
 	text-align: center;
 	justify-content: center;
 	align-items: center;
-	font-family: 'Crimson Text', serif;
-	font-weight: bold;
-	font-size: 2.8rem;
-	color: #606060;
 }
 
-p{
-    color: #606060;
+.homepage_content{
+	margin: 4rem auto;
+	width: 70%;
 }
 
 .services_page{
@@ -155,53 +174,24 @@ p{
 	align-items: center;
 }
 
-h2{
-	font-family: Goldoni;
-	color:white;
-	background-color: #9ad6e0;
-	font-size: 3.125rem;
-    font-weight: normal;
-	display: inline-block;
-	margin-top: 10%;
-	margin-bottom: 10%;
-}
-
-h3{
-	font-family: Goldoni;
-	color:#7e7e7e;
-	font-size: 1.56rem;
-    font-weight: normal;
-	margin-top: 7%;
-}
-
-
-h4{
-	font-family: Crimson;
-	color:#7e7e7e;
-	font-size: 1.56rem;
-    font-weight: normal;
-	margin-top: 7%;
-}
-
 .services{
-	/* max-width: 1000px; */
+	margin: 4rem auto;
 	width: 70%;
-	font-size: 2rem;
-	margin: 0 auto;
 }
 
-.gallery_page, .paintings_gallery{
+.featured_page, .paintings_gallery{
 	text-align: center;
 	justify-content: center;
 	align-items: center;
 }
 
-.gallery{
-	margin: 0 5%;
+.featured{
+	margin: 4rem auto;
+	width: 70%;
 }
 
 .container {
-  	background-color: #e9e9e9;  /* Blue */
+  	background-color: #606060;  /* Blue */
   	margin-left:auto;
   	margin-right:auto;
 }
@@ -216,7 +206,7 @@ h4{
 .painting{
 	width: 23%;
 	margin: 2% 1%;
-	box-shadow: 5px 5px 3px #e9e9e9;
+	box-shadow: 5px 5px 3px #606060;
 }
 
 .painting img {
@@ -263,6 +253,10 @@ h4{
 	text-align: center;
 	justify-content: center;
 	align-items: center;
+	
+	flex-direction: row-reverse;
+	width: 70%;
+	margin: 0 auto;
 }
 
 .contact_form{
@@ -272,7 +266,7 @@ h4{
 
 .contact_details{
 	width: 50%;
-	padding:0rem 2% 0rem 2%;
+	padding:0 2% 0 2%;
 
 	text-align: center;
 	justify-content: center;
@@ -293,6 +287,10 @@ h4{
     margin-top: 1rem;
     margin-bottom: 0rem;
     color: #606060;
+}
+
+.contact_us_page{
+	margin: 0 0 5rem 0;
 }
 
 .contact input, .contact textarea{
@@ -348,6 +346,10 @@ fieldset {
 	padding: 0px 5px;
 }
 
+footer {
+	margin-bottom: 10%;
+}
+
 @media only screen and (min-width: 1920px) {
     .hero-logo-title{
 		padding: 2%;
@@ -391,7 +393,7 @@ fieldset {
 	.painting{
 		width: 30%;
 		margin: 2% 1%;
-		box-shadow: 3px 3px 2px #e9e9e9;
+		box-shadow: 3px 3px 2px #606060;
 	}
 
 	
@@ -410,11 +412,6 @@ fieldset {
 		margin: 8% auto;
 	}
 
-	.services{
-		/* max-width: 1000px; */
-		width: 80%;
-	}
-
 	.owl-prev,
 	.owl-next {
 		position: absolute;
@@ -425,11 +422,11 @@ fieldset {
 	}
 
 	.owl-prev {
-		left: 3%;
+		left: 6%;
 	}
 
 	.owl-next {
-		right: 3%;
+		right: 6%;
 	}
 
 }
@@ -516,9 +513,9 @@ fieldset {
 	.painting{
 		width: 45%;
 		margin: 2% 1%;
-		box-shadow: 2px 2px 1px #e9e9e9;
+		box-shadow: 2px 2px 1px #606060;
 	}
-
+	
 }
 
 @media only screen and (max-width: 530px) {
