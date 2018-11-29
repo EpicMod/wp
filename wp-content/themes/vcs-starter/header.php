@@ -49,6 +49,7 @@
 						<i class="fas fa-times"></i>
 					</div>
 					<?php
+					
 					$args = [
 						'menu_class' => 'nav flex-container main',
 						'container' => false,

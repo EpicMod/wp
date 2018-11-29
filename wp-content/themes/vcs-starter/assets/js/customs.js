@@ -42,6 +42,8 @@ $(document).ready(function(){
     $('.menu-item').click(function(){
         $('.nav').toggleClass('show');
         $('.main-nav').toggleClass('show-background');
+        $('.burger').toggleClass('change');
+        $('.cross').toggleClass('change');
         $('body').toggleClass('change');
     });
 });

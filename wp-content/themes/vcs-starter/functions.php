@@ -5,7 +5,6 @@
 add_theme_support( 'post-thumbnails' );
 
 add_image_size('logo', 300, 300, false);
-add_image_size('logo', 300, 300, false);
 
 // Apsibrėžiame stiliaus failus ir skriptus
 
@@ -65,7 +64,8 @@ add_action('wp_enqueue_scripts', 'theme_stylesheets');
 function register_theme_menus() {
    
 	register_nav_menus(array( 
-        'primary-navigation' => __( 'Primary Navigation' ) 
+        'primary-navigation' => __( 'Primary Navigation' ),
+		'paintings-gallery-menu' => __( 'Paintings Gallery Menu' )
     ));
 }
 
