@@ -314,7 +314,7 @@ fieldset {
 	resize: none;
 }
 
-.contact button {
+.contact .contact_button {
 	cursor: pointer;
 	width: 100%;
 	border: none;
@@ -325,7 +325,7 @@ fieldset {
 	font-size: 1.2rem;
 }
 
-.contact button:hover {
+.contact .contact_button:hover {
 	background: #74c6d5;
 	-webkit-transition: background 0.3s ease-in-out;
 	-moz-transition: background 0.3s ease-in-out;
