@@ -18,4 +18,8 @@ get_header();
 	get_template_part('partials/services');
 ?>
 
+<?php
+	get_template_part('partials/featured_projects');
+?>
+
 <?php get_footer(); ?>
